@@ -29,7 +29,7 @@ header {
     height: 70px;
     display: flex;
     align-items: center;
-
+    padding: 0 15px;
 }
 
 
@@ -40,6 +40,8 @@ nav h1 {
 
 }
 
+
+
 .container {
     width: 100%;
     max-width: 960px;
@@ -47,9 +49,9 @@ nav h1 {
 }
 
 #pizzas {
-    padding: 20px 0px;
+    padding: 20px 15px;
     background-color: var(--bg-lght-gray);
-    padding-top: 40px;
+    
 }
 
 .pizza-card {
@@ -90,7 +92,7 @@ nav h1 {
 
 #comments {
 
-    padding: 40px 0;
+    padding: 20px 15px;
     
 }
 
@@ -116,6 +118,7 @@ footer {
     color: var(--color-yellow);
     display: flex;
     align-items: center;
+    padding: 0px 15px;
     
 }
 
